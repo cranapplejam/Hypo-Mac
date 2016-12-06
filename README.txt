@@ -1,0 +1,1 @@
+This project is a diagnostic tool for Emory STS that must be used with a usb Hypo pack containing our Mac-Stimpak. The program must be updated with each new version of software introduced to the Mac-Stimpak. Editing is an easy matter of replacing the string in each task contained in the associated functions with the new title of the program. 
