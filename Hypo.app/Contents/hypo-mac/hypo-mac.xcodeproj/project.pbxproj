@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38B5986A1D09E4CC008B8962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B598691D09E4CC008B8962 /* AppDelegate.swift */; };
+		38B5986C1D09E4CC008B8962 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B5986B1D09E4CC008B8962 /* ViewController.swift */; };
+		38B5986E1D09E4CC008B8962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38B5986D1D09E4CC008B8962 /* Assets.xcassets */; };
+		38B598711D09E4CC008B8962 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38B5986F1D09E4CC008B8962 /* Main.storyboard */; };
+		38B5987C1D09E4CC008B8962 /* hypo_macTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B5987B1D09E4CC008B8962 /* hypo_macTests.swift */; };
+		38B598871D09E4CC008B8962 /* hypo_macUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B598861D09E4CC008B8962 /* hypo_macUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38B598781D09E4CC008B8962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38B5985E1D09E4CC008B8962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38B598651D09E4CC008B8962;
+			remoteInfo = "hypo-mac";
+		};
+		38B598831D09E4CC008B8962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38B5985E1D09E4CC008B8962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38B598651D09E4CC008B8962;
+			remoteInfo = "hypo-mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38B598661D09E4CC008B8962 /* hypo-mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hypo-mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B598691D09E4CC008B8962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38B5986B1D09E4CC008B8962 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38B5986D1D09E4CC008B8962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38B598701D09E4CC008B8962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38B598721D09E4CC008B8962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38B598771D09E4CC008B8962 /* hypo-macTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hypo-macTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B5987B1D09E4CC008B8962 /* hypo_macTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hypo_macTests.swift; sourceTree = "<group>"; };
+		38B5987D1D09E4CC008B8962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38B598821D09E4CC008B8962 /* hypo-macUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hypo-macUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B598861D09E4CC008B8962 /* hypo_macUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hypo_macUITests.swift; sourceTree = "<group>"; };
+		38B598881D09E4CC008B8962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38B598631D09E4CC008B8962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38B598741D09E4CC008B8962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38B5987F1D09E4CC008B8962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38B5985D1D09E4CC008B8962 = {
+			isa = PBXGroup;
+			children = (
+				38B598681D09E4CC008B8962 /* hypo-mac */,
+				38B5987A1D09E4CC008B8962 /* hypo-macTests */,
+				38B598851D09E4CC008B8962 /* hypo-macUITests */,
+				38B598671D09E4CC008B8962 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38B598671D09E4CC008B8962 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38B598661D09E4CC008B8962 /* hypo-mac.app */,
+				38B598771D09E4CC008B8962 /* hypo-macTests.xctest */,
+				38B598821D09E4CC008B8962 /* hypo-macUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38B598681D09E4CC008B8962 /* hypo-mac */ = {
+			isa = PBXGroup;
+			children = (
+				38B598691D09E4CC008B8962 /* AppDelegate.swift */,
+				38B5986B1D09E4CC008B8962 /* ViewController.swift */,
+				38B5986D1D09E4CC008B8962 /* Assets.xcassets */,
+				38B5986F1D09E4CC008B8962 /* Main.storyboard */,
+				38B598721D09E4CC008B8962 /* Info.plist */,
+			);
+			path = "hypo-mac";
+			sourceTree = "<group>";
+		};
+		38B5987A1D09E4CC008B8962 /* hypo-macTests */ = {
+			isa = PBXGroup;
+			children = (
+				38B5987B1D09E4CC008B8962 /* hypo_macTests.swift */,
+				38B5987D1D09E4CC008B8962 /* Info.plist */,
+			);
+			path = "hypo-macTests";
+			sourceTree = "<group>";
+		};
+		38B598851D09E4CC008B8962 /* hypo-macUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38B598861D09E4CC008B8962 /* hypo_macUITests.swift */,
+				38B598881D09E4CC008B8962 /* Info.plist */,
+			);
+			path = "hypo-macUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38B598651D09E4CC008B8962 /* hypo-mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38B5988B1D09E4CC008B8962 /* Build configuration list for PBXNativeTarget "hypo-mac" */;
+			buildPhases = (
+				38B598621D09E4CC008B8962 /* Sources */,
+				38B598631D09E4CC008B8962 /* Frameworks */,
+				38B598641D09E4CC008B8962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hypo-mac";
+			productName = "hypo-mac";
+			productReference = 38B598661D09E4CC008B8962 /* hypo-mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38B598761D09E4CC008B8962 /* hypo-macTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38B5988E1D09E4CC008B8962 /* Build configuration list for PBXNativeTarget "hypo-macTests" */;
+			buildPhases = (
+				38B598731D09E4CC008B8962 /* Sources */,
+				38B598741D09E4CC008B8962 /* Frameworks */,
+				38B598751D09E4CC008B8962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38B598791D09E4CC008B8962 /* PBXTargetDependency */,
+			);
+			name = "hypo-macTests";
+			productName = "hypo-macTests";
+			productReference = 38B598771D09E4CC008B8962 /* hypo-macTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38B598811D09E4CC008B8962 /* hypo-macUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38B598911D09E4CC008B8962 /* Build configuration list for PBXNativeTarget "hypo-macUITests" */;
+			buildPhases = (
+				38B5987E1D09E4CC008B8962 /* Sources */,
+				38B5987F1D09E4CC008B8962 /* Frameworks */,
+				38B598801D09E4CC008B8962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38B598841D09E4CC008B8962 /* PBXTargetDependency */,
+			);
+			name = "hypo-macUITests";
+			productName = "hypo-macUITests";
+			productReference = 38B598821D09E4CC008B8962 /* hypo-macUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38B5985E1D09E4CC008B8962 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sts;
+				TargetAttributes = {
+					38B598651D09E4CC008B8962 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					38B598761D09E4CC008B8962 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 38B598651D09E4CC008B8962;
+					};
+					38B598811D09E4CC008B8962 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 38B598651D09E4CC008B8962;
+					};
+				};
+			};
+			buildConfigurationList = 38B598611D09E4CC008B8962 /* Build configuration list for PBXProject "hypo-mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38B5985D1D09E4CC008B8962;
+			productRefGroup = 38B598671D09E4CC008B8962 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38B598651D09E4CC008B8962 /* hypo-mac */,
+				38B598761D09E4CC008B8962 /* hypo-macTests */,
+				38B598811D09E4CC008B8962 /* hypo-macUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38B598641D09E4CC008B8962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38B5986E1D09E4CC008B8962 /* Assets.xcassets in Resources */,
+				38B598711D09E4CC008B8962 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38B598751D09E4CC008B8962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38B598801D09E4CC008B8962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38B598621D09E4CC008B8962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38B5986C1D09E4CC008B8962 /* ViewController.swift in Sources */,
+				38B5986A1D09E4CC008B8962 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38B598731D09E4CC008B8962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38B5987C1D09E4CC008B8962 /* hypo_macTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38B5987E1D09E4CC008B8962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38B598871D09E4CC008B8962 /* hypo_macUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38B598791D09E4CC008B8962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38B598651D09E4CC008B8962 /* hypo-mac */;
+			targetProxy = 38B598781D09E4CC008B8962 /* PBXContainerItemProxy */;
+		};
+		38B598841D09E4CC008B8962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38B598651D09E4CC008B8962 /* hypo-mac */;
+			targetProxy = 38B598831D09E4CC008B8962 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38B5986F1D09E4CC008B8962 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38B598701D09E4CC008B8962 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38B598891D09E4CC008B8962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38B5988A1D09E4CC008B8962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		38B5988C1D09E4CC008B8962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "hypo-mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sts.hypo-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38B5988D1D09E4CC008B8962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "hypo-mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sts.hypo-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		38B5988F1D09E4CC008B8962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "hypo-macTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sts.hypo-macTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hypo-mac.app/Contents/MacOS/hypo-mac";
+			};
+			name = Debug;
+		};
+		38B598901D09E4CC008B8962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "hypo-macTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sts.hypo-macTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hypo-mac.app/Contents/MacOS/hypo-mac";
+			};
+			name = Release;
+		};
+		38B598921D09E4CC008B8962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "hypo-macUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sts.hypo-macUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "hypo-mac";
+			};
+			name = Debug;
+		};
+		38B598931D09E4CC008B8962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "hypo-macUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sts.hypo-macUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "hypo-mac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38B598611D09E4CC008B8962 /* Build configuration list for PBXProject "hypo-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38B598891D09E4CC008B8962 /* Debug */,
+				38B5988A1D09E4CC008B8962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38B5988B1D09E4CC008B8962 /* Build configuration list for PBXNativeTarget "hypo-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38B5988C1D09E4CC008B8962 /* Debug */,
+				38B5988D1D09E4CC008B8962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38B5988E1D09E4CC008B8962 /* Build configuration list for PBXNativeTarget "hypo-macTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38B5988F1D09E4CC008B8962 /* Debug */,
+				38B598901D09E4CC008B8962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38B598911D09E4CC008B8962 /* Build configuration list for PBXNativeTarget "hypo-macUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38B598921D09E4CC008B8962 /* Debug */,
+				38B598931D09E4CC008B8962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38B5985E1D09E4CC008B8962 /* Project object */;
+}
